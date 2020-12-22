@@ -1,5 +1,5 @@
 {
-  "name": "@mcan/tsboilerplate",
+  "name": "event-booster",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
