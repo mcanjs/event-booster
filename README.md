@@ -1,12 +1,13 @@
-# Event Booster
-Event track for websites and performance based
-
-```js
-allEvents(default): {
-    resource: ['load'],
-    view: ['scroll'],
-    clipboard: ['cut', 'copy', 'paste'],
-    mouse: ['click', 'dblclick'],
-    timer: true,
-}
-```
+<div>
+    <center>
+        <img src="./ev-booster.gif" />
+    </center>
+</div>
+<hr />
+<div>
+   <center>
+        <h2>
+            Event track for websites and performance based
+        </h2>
+   </center>
+</div>
