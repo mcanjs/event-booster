@@ -1,7 +1,19 @@
-import StorageInterface from './EventStorage.interface';
+declare global {
+    interface Document {
+        documentMode?: any;
+    }
+}
 export default class EventStorage {
-    constructor(config: StorageInterface);
-    static InitRelatedStorage(): void;
-    localStorage(): void;
-    sessionStorage(): void;
+    private storageBrowserTypeManagement;
+    private storageNodeElManagement;
+    private storageElAttributeManagement;
+    private initStorage;
+    addStorageItem({ config, eventType, event, withReturnStorage }: {
+        config: any;
+        eventType: string;
+        event: any;
+        withReturnStorage?: Boolean;
+    }): any;
+    clearStorage(): void;
+    storageStatus(config: any): void;
 }

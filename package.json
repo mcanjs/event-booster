@@ -1,7 +1,7 @@
 {
   "name": "event-booster",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./js/event-booster.bundle.js",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",

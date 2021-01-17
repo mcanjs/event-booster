@@ -1,6 +1,6 @@
 export default interface EventBoosterInterface {
     withoutEvents: Array<String>,
-    storagetRootSettings: Object,
+    storageRootSettings: Object,
     storageSettings: Object,
     withCallbackAction: Object,
 }

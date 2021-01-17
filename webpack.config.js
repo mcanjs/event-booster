@@ -5,8 +5,8 @@ module.exports = {
   entry: path.resolve(__dirname, 'src/events/eventBooster.ts'),
 
   output: {
-    filename: 'app.bundle.js',
-    path: path.resolve(__dirname, 'dist/assets/js'),
+    filename: 'event-booster.bundle.js',
+    path: path.resolve(__dirname, 'js/'),
   },
 
   watch: true,

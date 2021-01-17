@@ -51,7 +51,8 @@ export default class EventStorage {
     if ( storage === null ) {
       localStorage.setItem('EventBooster', JSON.stringify({ EventBooster: {
         storageCreatedTime: Date(),
-        browserType: config.storagetRootSettings.browserType ? this.storageBrowserTypeManagement() : '',
+        browserType: config.storageRootSettings.browserType ? this.storageBrowserTypeManagement() : '',
+        userToken: config.storageRootSettings.setUserToken ? config.storageRootSettings.setUserToken : '',
       } }));
     }
   }
